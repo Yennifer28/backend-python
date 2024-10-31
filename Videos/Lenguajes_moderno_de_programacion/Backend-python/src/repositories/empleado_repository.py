@@ -15,7 +15,7 @@ class EmpleadoRepository:
     
     @staticmethod
     def create_empleado(data):
-        db.collection(coll).add(data)git remote add origin https://github.com/Yennifer28/backend-python.git
+        db.collection(coll).add(data)
     
     @staticmethod
     def get_by_user(username):
